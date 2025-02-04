@@ -1,5 +1,6 @@
-# genslug
 
+# genslug
+此脚本是开发Hugo主题时写的，功能是将Hexo旧文章全部加上slug
 为content/posts里的所有文章，重新生成slug
 
 生成规则是：将字符串“标题|时间的Unix格式”作md5，取前6位
